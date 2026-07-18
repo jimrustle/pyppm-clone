@@ -1,0 +1,143 @@
+(footprint "SDR6603"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SDR6603 Series - SMD Power Inductors")
+	(property "Reference" "REF**"
+		(at 0 -2.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "481c9360-3c97-4596-a007-37e498f1b199")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SDR6603"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1b9fdf56-2e90-4cb8-a718-016dc5fc2384")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ecc0e7e-3bba-463d-809b-477fede8b8c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SDR6603.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5241204-3f12-4cff-a00c-b1ad93a7f2c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SDR6603 Series - SMD Power Inductors"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94522240-dbb0-4661-a8b3-a79f3bdaebd7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.8 -2.2)
+		(end 1.8 -2.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e98b7423-8a78-4a6e-8e9c-0d63ac97addb")
+	)
+	(fp_line
+		(start 1.8 2.2)
+		(end -1.8 2.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7cf13860-0381-4fe3-8d06-b5b5758666b3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6a0f82aa-77e9-4819-99e0-69ee5bdccb8d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at -2.7 0)
+		(size 1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.8 -0.8) (xy 0.7 -1.5) (xy 0.7 1.5) (xy -0.8 0.8)
+				)
+				(width 0.2)
+				(fill yes)
+			)
+		)
+		(uuid "27b19b76-0414-4e4f-b862-668e7dc9108d")
+	)
+	(pad "2" smd custom
+		(at 2.7 0)
+		(size 1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.7 1.5) (xy -0.7 -1.5) (xy 0.8 -0.8) (xy 0.8 0.8)
+				)
+				(width 0.2)
+				(fill yes)
+			)
+		)
+		(uuid "adab170f-07fb-4aa7-a255-578fdfbe85b9")
+	)
+)
