@@ -4,6 +4,8 @@ This project is a modern update of [https://github.com/geekysuavo/pyppm](https:/
 
 All design credits go to geekysuavo.
 
+see kicad/ppm-clone.pdf for schematic
+
 # Changes
 
 This project implements pyppm ver 2.2 in KiCAD 10.0 instead of gEDA.
