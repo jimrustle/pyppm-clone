@@ -1,3 +1,7 @@
 .history
 *-backups
 *.bak
+fp-info-cache
+fp-lib-table
+ppm-clone.kicad_prl
+sym-lib-table
